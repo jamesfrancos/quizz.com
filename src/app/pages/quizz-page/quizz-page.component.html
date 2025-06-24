@@ -1,0 +1,13 @@
+<div id="container__quizz-page">
+   <div id="result" *ngIf="showResult">
+      <h1>Your result is: {{result}}</h1>
+      <button><a [routerLink]="['']">Back</a></button>
+   </div>
+   <div id="quizz" *ngIf="showQuizz">
+      <h1>Question {{questionOrder}}:</h1>
+      <h1>{{content}}</h1>
+      <div id="options">
+          <button *ngFor="let item of options" (click)="nextQuestion(item.alias)">{{item.name}}</button>
+      </div>
+   </div>
+</div>

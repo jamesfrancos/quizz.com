@@ -1,0 +1,11 @@
+<div id="container__home">
+    <h1 id="title_1">QUIZZ.COM</h1>
+    <h1 id="title_2">Quizz List:</h1>
+    <div id="quizz_list" *ngFor="let item of quizz_list; let i=index">
+        <div class="quest">
+            <h1>{{item.title}}</h1>
+            <button><a [routerLink]="['/quizz',i]">Play!</a></button>
+        </div>
+    </div>
+</div>
+

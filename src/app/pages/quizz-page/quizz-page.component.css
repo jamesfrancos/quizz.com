@@ -1,0 +1,78 @@
+#container__quizz-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container__quizz-page > #result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#container__quizz-page > #result > h1{
+    font-size: 100px;
+}
+
+#container__quizz-page > #result > button{
+    background-color: orangered;
+    padding: 0 4%;
+    font-size: 90px;
+    border-radius: 10px;
+    margin-top: 15%;
+}
+
+#container__quizz-page > #result > button > a{
+    text-decoration: none;
+}
+
+#container__quizz-page > #result >  button:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+#container__quizz-page > button:active{
+    position:relative;
+    top:1px;
+}
+
+#container__quizz-page > #quizz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container__quizz-page > #quizz > h1{
+    font-size: 80px;
+}
+
+#container__quizz-page > #quizz > #options{
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-top: 2%;
+}
+
+#container__quizz-page > #quizz > #options > button{
+    background-color: orangered;
+    padding: 0 4%;
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 1% 5%;
+}
+
+#container__quizz-page > #quizz > #options > button:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+#container__quizz-page > #quizz > #options > button:active{
+    position: relative;
+    top: 1px;
+}

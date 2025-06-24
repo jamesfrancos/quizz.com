@@ -1,0 +1,50 @@
+#container__home > #title_1{
+    margin-bottom: 4%;
+    font-size: 100px;
+    margin-left: 32%;
+}
+
+#container__home > #title_2{
+    font-size: 80px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+#container__home > #quizz_list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+}
+
+#container__home > #quizz_list > .quest{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color:black;
+    margin-bottom: 3%;
+}
+
+#container__home > #quizz_list > .quest > h1{
+    font-size: 60px;
+    margin-right: 5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+}
+
+#container__home > #quizz_list > .quest > button{
+    background-color: orangered;
+    padding: 0 4%;
+    font-size: 40px;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#container__home > #quizz_list > .quest > button:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
